@@ -6,20 +6,34 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+div.row {
+    width:100%;
+    float:left;
+}
+
 h1.heading {
 	text-align: center;
-	font-size: 75%px;
 	margin: 30px 30px 30px 30px;
 }
 
-div.outer-box {
+div.outer-box1 {
 	float: left;
 	position: relative;
 	background-color: grey;
 	border: 1px solid black;
-	margin: 5px;
 }
-
+div.outer-box2 {
+	float: left;
+	position: relative;
+	background-color: grey;
+	border: 1px solid black;
+}
+div.outer-box3 {
+	float: left;
+	position: relative;
+	background-color: grey;
+	border: 1px solid black;
+}
 p {
 	color: white;
 }
@@ -33,7 +47,6 @@ div.inner-box {
 	float: right;
 	position: relative;
 	border: 1px solid black;
-	width: auto;
 }
 
 div.inner-box > p {
@@ -45,28 +58,28 @@ div.inner-box > p {
 }
 
 .clg-lg-1 {
-	width: 33.33%;
+	width: 33.3%;
 }
 
 .clg-md-2 {
-	width: 33.33%;
+	width: 33.3%;
 }
 
 .clg-sm-3 {
-	width: 33.33%;
+	width: 33.3%;
 }
 
 @media (max-width: 992px) {
 .clg-lg-1 {
-	width: 33.33%;
+	width: 33.3%;
 }
 
 .clg-lg-2 {
-	width: 33.33%;
+	width: 33.3%;
 }
 
 .clg-lg-3 {
-	width: 33.33%;
+	width: 33.3%;
 }
 }
 
