@@ -16,23 +16,12 @@ h1.heading {
 	margin: 30px 30px 30px 30px;
 }
 
-div.outer-box1 {
+div.outer-box {
 	float: left;
 	position: relative;
 	background-color: grey;
 	border: 1px solid black;
-}
-div.outer-box2 {
-	float: left;
-	position: relative;
-	background-color: grey;
-	border: 1px solid black;
-}
-div.outer-box3 {
-	float: left;
-	position: relative;
-	background-color: grey;
-	border: 1px solid black;
+	margin-bottom:5px;
 }
 p {
 	color: white;
